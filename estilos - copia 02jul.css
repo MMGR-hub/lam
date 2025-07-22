@@ -1,0 +1,295 @@
+* {
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {  
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.contenedor {
+    margin: 0 auto;
+    max-width: 100%; 
+    overflow: hidden;
+    width: 90%;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.logo {
+    align-items: center;
+    height: auto; 
+    margin-left: 20px; 
+}
+
+nav { 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+nav a {
+    color: dodgerblue;
+    font-size: 16px;
+    font-weight: bold;    
+    text-decoration: none;    
+}
+
+a:hover {
+    background-color: pink;
+    color: chocolate;
+}
+
+.inicio {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#figura-inicio {
+    cursor: pointer;
+    height: auto;
+    max-width: 720px;
+    transition: 0.8s;
+}           
+
+#figura-inicio:hover {
+    filter: brightness(60%);
+    transform: scale(.8);
+}
+
+#opcion1 h2 {
+    background-color: pink; 
+    color: dodgerblue;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 60px;
+    margin-bottom: 50px;    
+}
+
+.tienda {
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.main {
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 40px; 
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.main img {    
+    max-width: 100%;
+    height: auto;
+}
+
+.aside {
+    background-color:darkorange; 
+    padding: 40px 60px;
+    overflow: hidden;    
+    border: 2px solid mediumslateblue;
+}
+
+.aside h1 {
+    color: chocolate;
+    animation: titulo 5s infinite;
+    font-family: Script MT;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.aside h2 {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.aside p {
+    color: black;
+    font-size: 14px;
+    text-align: justify;
+}
+
+@keyframes titulo {
+    from { transform: translateX(0%); }
+    to { transform: translateX(100%); }
+}
+
+#opcion2 h2 {
+    background-color: pink; 
+    color: dodgerblue;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+#los-productos {
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+#los-productos h2 {
+    background-color: white; 
+    color: dodgerblue;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-bottom: 20px;    
+}
+
+#los-productos h3 {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#los-productos p {
+    color: black;   
+    font-size: 20px;
+    text-align: center;
+}
+
+.productos {
+    display: grid;    
+    gap: 10px;   
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.carta {
+    background-color: pink;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,5); 
+    padding: 15px;
+    text-align: center;
+}
+
+#opcion3 h2 {
+    background-color:  pink;  
+    color: dodgerblue;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.contacto {
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+
+
+
+#contacto {
+    background-color: white;
+    display: block;
+    margin-top: 10px;
+    margin-left: 100px;
+    text-align: left;
+}
+
+#contacto p {
+    color: black;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+#contacto img { 
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+.maincontacto h1 {
+    font-family: georgia;
+    font-size: 20px;
+    color: white;
+    background-color: gold;
+    text-align: left;
+    margin-top: 50px;
+}
+
+#final {    
+    text-align: center;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+
+/* Media Queries para diseño responsive*/
+@media (max-width: 992px) {
+    .tienda {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .tienda {
+        flex-direction: column;
+    }
+    nav { 
+        gap: 30px;
+    }    
+    nav a {
+        margin: 10px 0;
+    }
+    .aside {
+        display: grid;
+    }
+    .carta {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    #figura-inicio img {
+        max-width: 100%;
+    }
+    .main {
+        padding: 10px;
+    }
+    .aside {
+        padding: 10px;
+    }
+    .carta {
+        padding: 10px;
+    }
+}
