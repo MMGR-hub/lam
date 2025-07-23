@@ -391,8 +391,14 @@ nav {
         flex-direction: column;
         text-align: center;
     }
-    .horizontal a {
-        text-align: right;
+    nav { 
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+        margin-right: 30px;
+        font-weight: bold;
+        background-color: pink;
     }
     .logo img {
         width: 130px;
