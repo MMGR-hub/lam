@@ -64,7 +64,7 @@ nav {
     text-decoration: none;
 }
 
-.horizontal li:hover {
+.horizontal > li:hover {
     font-family: Georgia;
     /*background-color: #00aeef;*/
 }
