@@ -391,7 +391,7 @@ nav {
         flex-direction: column;
         text-align: center;
     }
-    header {
+    /*header {
         background-color: black;
         display: flex;
         flex-wrap: wrap;
@@ -407,10 +407,11 @@ nav {
         margin-right: 30px;
         font-weight: bold;
         background-color: pink;
-    }
+    }*/
     .logo img {
         width: 130px;
         height: 110px;
+        margin-right: 50px;
     }
     .vertical a {
         text-align: left;
