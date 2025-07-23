@@ -65,8 +65,8 @@ nav {
 }
 
 .horizontal > li:hover {
-    background-color: #00aeef;
-    color: red;
+    border-color: #00aeef;
+    /*background-color: #00aeef;*/
 }
 
 .vertical {
