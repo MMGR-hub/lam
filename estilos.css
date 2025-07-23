@@ -391,10 +391,10 @@ nav {
 }
 
 @media (max-width: 480px) {
-    header {
-        /*flex-direction: column; xxx*/
+    /*header {
+        flex-direction: column; xxx
         text-align: center;
-    }
+    }*/
     /*header {
         background-color: black;
         display: flex;
