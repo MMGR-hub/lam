@@ -65,7 +65,7 @@ nav {
 }
 
 .horizontal > li:hover {
-    background-color: #6cdbff;
+    background-color: #e2edff;
 }
 
 .vertical {
@@ -81,7 +81,8 @@ nav {
 }
 
 .vertical li:hover {
-    background-color: #00aeef;
+    /*background-color: #00aeef;*/
+    background-color: #aac9ff;
 }
 
 .vertical li a {
@@ -409,8 +410,8 @@ nav {
         background-color: pink;
     }*/
     .logo img {
-        width: 130px;
-        height: 110px;
+        width: 90px;
+        height: 70px;
         /*margin-right: 90px;*/
         margin-right: 80px;
     }
