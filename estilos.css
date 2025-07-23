@@ -169,7 +169,6 @@ nav {
     display: grid;    
     gap: 20px;   
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    /*background-color: #ed8e24;*/
 }
 
 .menu-productos a {
@@ -328,7 +327,7 @@ nav {
     header {
         flex-direction: column;
         text-align: center; 
-    }
+    }    
     .vertical a {
         text-align: left;
     }    
@@ -357,9 +356,6 @@ nav {
         flex-direction: column;
         text-align: center;
     }  
-    nav a {
-        margin: 10px 0;
-    }
     .vertical a {
         text-align: left;
     }
@@ -383,7 +379,14 @@ nav {
     }
 }
 
-@media (max-width: 480px) {    
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .horizontal a {
+        text-align: left;
+    }
     .vertical a {
         text-align: left;
     }
