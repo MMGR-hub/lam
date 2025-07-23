@@ -391,6 +391,14 @@ nav {
         flex-direction: column;
         text-align: center;
     }
+    header {
+        background-color: black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        padding: 5px;
+        align-items: center;
+    }
     nav { 
         display: flex;
         flex-wrap: wrap;
