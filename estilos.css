@@ -411,11 +411,11 @@ nav {
     .logo img {
         width: 130px;
         height: 110px;
-        margin-right: 70px;
+        margin-right: 90px;
     }
-    .horizontal a{
+    /*.horizontal a{
         text-align: center;
-    }
+    }*/
     .horizontal li a {
         padding: 3px 5px 3px 10px;
     }
