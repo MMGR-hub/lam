@@ -36,6 +36,11 @@ header {
     margin-left: 15px; 
 }
 
+.logo img {
+    width: 170px;
+    height: 150px;
+}
+
 nav { 
     display: flex;
     flex-wrap: wrap;
@@ -383,9 +388,6 @@ nav {
     header {
         flex-direction: column;
         text-align: center;
-    }
-    .horizontal a {
-        text-align: left;
     }
     .vertical a {
         text-align: left;
