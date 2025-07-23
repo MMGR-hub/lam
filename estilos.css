@@ -291,9 +291,11 @@ nav {
     margin-bottom: 25px;
 }
 
-.maincontacto img {    
-    max-width: 100%;
-    height: auto;
+.maincontacto img {
+    width: 250px;
+    height: 250px;
+    /*max-width: 100%;
+    height: auto;*/
 }
 
 .asidecontacto {
@@ -390,11 +392,11 @@ nav {
         text-align: center;
     }
     .horizontal a {
-        text-align: left;
+        text-align: right;
     }
     .logo img {
-        width: 150px;
-        height: 130px;
+        width: 130px;
+        height: 110px;
     }
     .vertical a {
         text-align: left;
@@ -419,5 +421,9 @@ nav {
     }
         #contacto {
         flex-direction: column;
+    }
+    .maincontacto img {
+        width: 150px;
+        height: 150px;
     }
 }
