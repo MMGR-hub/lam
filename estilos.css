@@ -65,7 +65,10 @@ nav {
 }
 
 .horizontal > li:hover {
-    background-color: #e2edff;
+    /*background-color: #e2edff;*/
+    text-decoration: underline;
+    text-decoration-color: #00aeef;
+    text-decoration-style: dashed; 
 }
 
 .vertical {
@@ -389,7 +392,7 @@ nav {
 
 @media (max-width: 480px) {
     header {
-        flex-direction: column;
+        /*flex-direction: column; xxx*/
         text-align: center;
     }
     /*header {
