@@ -411,7 +411,7 @@ nav {
     .logo img {
         width: 130px;
         height: 110px;
-        margin-right: 90px;
+        /*margin-right: 90px;*/
     }
     /*.horizontal a{
         text-align: center;
