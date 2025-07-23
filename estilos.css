@@ -66,9 +66,10 @@ nav {
 
 .horizontal > li:hover {
     /*background-color: #e2edff;*/
-    text-decoration: underline;
+    /*text-decoration: underline;
     text-decoration-color: #00aeef;
-    text-decoration-style: dashed; 
+    text-decoration-style: solid;*/
+    border: 2px solid #00aeef;
 }
 
 .vertical {
@@ -85,7 +86,10 @@ nav {
 
 .vertical li:hover {
     /*background-color: #00aeef;*/
-    background-color: #aac9ff;
+    /*background-color: #aac9ff;*/
+    text-decoration: underline;
+    text-decoration-color: #00aeef;
+    text-decoration-style: 4px solid;
 }
 
 .vertical li a {
@@ -412,6 +416,9 @@ nav {
         font-weight: bold;
         background-color: pink;
     }*/
+    .logo {
+        margin-left: 2% 
+    }
     .logo img {
         width: 90px;
         height: 70px;
