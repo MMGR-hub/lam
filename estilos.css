@@ -65,8 +65,7 @@ nav {
 }
 
 .horizontal li:hover {
-    border-radius: 5px;
-    border-color: #00aeef;
+    font-style: oblique;
     /*background-color: #00aeef;*/
 }
 
