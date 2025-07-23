@@ -389,6 +389,13 @@ nav {
         flex-direction: column;
         text-align: center;
     }
+    .horizontal a {
+        text-align: left;
+    }
+    .logo img {
+        width: 150px;
+        height: 130px;
+    }
     .vertical a {
         text-align: left;
     }
