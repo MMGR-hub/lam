@@ -65,8 +65,7 @@ nav {
 }
 
 .horizontal > li:hover {
-    font-family: Georgia;
-    /*background-color: #00aeef;*/
+    background-color: lightskyblue;
 }
 
 .vertical {
