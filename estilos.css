@@ -406,7 +406,7 @@ nav {
     }*/
     .logo {
         background-color: pink;
-        margin-left: 2px; 
+        padding: 5px 5px; 
     }
     .logo img {
         width: 90px;
