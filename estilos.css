@@ -408,7 +408,7 @@ nav {
     .horizontal li a {
         background-color: pink;
         /*padding: 3px 5px 3px 40px;*/
-        padding: 3px 3px 3px 3px;
+        padding: 3px 5px 3px 3px;
     }
     .vertical a {
         text-align: left;
