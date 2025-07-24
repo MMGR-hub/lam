@@ -400,14 +400,14 @@ nav {
         margin-right: 10px;
     }
     .logo img {
-        width: 90px;
-        height: 70px;
+        width: 100px;
+        height: 80px;
         /*margin-left: 50px;*/
     }
     .horizontal li a {
-        background-color: pink;
+        background-color: yellow;
         /*padding: 3px 5px 3px 40px;*/
-        padding: 8px 8px 8px 8px;
+        padding: 8px 8px 8px 20px;
     }
     .vertical a {
         text-align: left;
