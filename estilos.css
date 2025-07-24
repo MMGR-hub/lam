@@ -397,8 +397,8 @@ nav {
     }*/
     nav { 
         display: block;
-        margin-right: 30px;
-        background-color: pink;
+        margin-right: 10px;
+        background-color: yellow;
     }
     .logo img {
         width: 90px;
