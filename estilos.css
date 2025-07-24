@@ -405,9 +405,9 @@ nav {
         height: 70px;
         /*margin-left: 50px;*/
     }
-    /*.horizontal a {
-        text-align: center;
-    }*/
+    .horizontal a {
+        text-align: left;
+    }
     /*.horizontal li a {
         padding: 3px 5px 3px 40px;
         padding: 3px 3px 3px 35px;
