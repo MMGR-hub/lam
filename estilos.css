@@ -57,10 +57,14 @@ nav {
     justify-content: space-around;
 }
 
+.horizontal a {
+    color: #ed8e24;
+}
+
 .horizontal > li > a {
     display: block;
     padding: 5px 25px;
-    color: #ed8e24;
+    /*color: #ed8e24;*/
     text-decoration: none;
 }
 
