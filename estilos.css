@@ -67,10 +67,6 @@ nav {
 .horizontal > li:hover {
     background-color: #00aeef;
     color: white;
-    /*text-decoration: underline;
-    text-decoration-color: #00aeef;
-    text-decoration-style: 6px solid;
-    border: 2px solid #00aeef;*/
 }
 
 .vertical {
@@ -88,10 +84,6 @@ nav {
 .vertical li:hover {
     background-color: #00aeef;
     color: white;
-    /*text-decoration: underline;
-    text-decoration-color: #00aeef;
-    text-decoration-style: 6px solid;
-    /*border: 2px solid #00aeef;*/ 
 }
 
 .vertical li a {
