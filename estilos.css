@@ -388,7 +388,7 @@ nav {
 
 @media (max-width: 480px) {
     header {
-        justify-content: center;
+        display: contents;
     } 
     /*header {
         background-color: black;
