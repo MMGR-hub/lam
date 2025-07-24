@@ -87,9 +87,10 @@ nav {
 .vertical li:hover {
     /*background-color: #00aeef;*/
     /*background-color: #aac9ff;*/
-    text-decoration: underline;
+    /*text-decoration: underline;
     text-decoration-color: #00aeef;
     text-decoration-style: 4px solid;
+    border: 2px solid #00aeef;*/
 }
 
 .vertical li a {
@@ -417,7 +418,7 @@ nav {
         background-color: pink;
     }*/
     .logo {
-        margin-left: 2% 
+        margin-left: 2px; 
     }
     .logo img {
         width: 90px;
