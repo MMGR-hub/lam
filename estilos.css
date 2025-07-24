@@ -65,11 +65,11 @@ nav {
 }
 
 .horizontal > li:hover {
-    background-color: lightgray;
-    /*text-decoration: underline;
+    /*background-color: lightgray;*/
+    text-decoration: underline;
     text-decoration-color: #00aeef;
-    text-decoration-style: 4px solid;
-    border: 2px solid #00aeef;*/
+    text-decoration-style: 8px solid;
+    /*border: 2px solid #00aeef;*/
 }
 
 .vertical {
@@ -85,12 +85,11 @@ nav {
 }
 
 .vertical li:hover {
-    background-color: lightgray;
     /*background-color: #aac9ff;*/
-    /*text-decoration: underline;
+    text-decoration: underline;
     text-decoration-color: #00aeef;
-    text-decoration-style: 4px solid;
-    border: 2px solid #00aeef;*/ 
+    text-decoration-style: 8px solid;
+    /*border: 2px solid #00aeef;*/ 
 }
 
 .vertical li a {
