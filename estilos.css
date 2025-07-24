@@ -388,7 +388,7 @@ nav {
 
 @media (max-width: 480px) {
     header {
-        display: flexbox;
+        justify-content: space-around;
     } 
     /*header {
         background-color: black;
@@ -408,7 +408,7 @@ nav {
         background-color: pink;
     }*/
     .logo {
-        margin-left: 6px; 
+        margin-left: 2px; 
     }
     .logo img {
         width: 90px;
