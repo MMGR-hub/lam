@@ -404,15 +404,15 @@ nav {
         font-weight: bold;
         background-color: pink;
     }*/
-    /*.logo {
-        margin-left: 20px; 
-    }*/
+    .logo {
+        margin-left: 2px; 
+    }
     .logo img {
         width: 90px;
         height: 70px;
         /*margin-right: 80px;*/
     }
-    .horizontal a{
+    .horizontal a {
         text-align: center;
     }
     /*.horizontal li a {
