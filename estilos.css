@@ -387,9 +387,6 @@ nav {
 }
 
 @media (max-width: 480px) {
-    header {
-        display: contents;
-    } 
     /*header {
         background-color: black;
         display: flex;
@@ -408,7 +405,7 @@ nav {
         background-color: pink;
     }*/
     .logo {
-        margin-left: 2px; 
+        margin-left: 20px; 
     }
     .logo img {
         width: 90px;
