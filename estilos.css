@@ -398,7 +398,6 @@ nav {
     nav { 
         display: block;
         margin-right: 10px;
-        background-color: yellow;
     }
     .logo img {
         width: 90px;
@@ -408,7 +407,7 @@ nav {
     .horizontal li a {
         background-color: pink;
         /*padding: 3px 5px 3px 40px;*/
-        padding: 3px 8px 8px 3px;
+        padding: 8px 8px 8px 8px;
     }
     .vertical a {
         text-align: left;
