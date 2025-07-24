@@ -65,11 +65,12 @@ nav {
 }
 
 .horizontal > li:hover {
-    /*background-color: lightgray;*/
-    text-decoration: underline;
+    background-color: #00aeef;
+    color: white;
+    /*text-decoration: underline;
     text-decoration-color: #00aeef;
     text-decoration-style: 6px solid;
-    /*border: 2px solid #00aeef;*/
+    border: 2px solid #00aeef;*/
 }
 
 .vertical {
@@ -85,8 +86,9 @@ nav {
 }
 
 .vertical li:hover {
-    /*background-color: #aac9ff;*/
-    text-decoration: underline;
+    background-color: #00aeef;
+    color: white;
+    /*text-decoration: underline;
     text-decoration-color: #00aeef;
     text-decoration-style: 6px solid;
     /*border: 2px solid #00aeef;*/ 
@@ -395,10 +397,9 @@ nav {
 }
 
 @media (max-width: 480px) {
-    /*header {
-        flex-direction: column; xxx
-        text-align: center;
-    }*/
+    header {
+        display: block;
+    }
     /*header {
         background-color: black;
         display: flex;
@@ -438,7 +439,7 @@ nav {
         padding: 3px 5px 3px 25px;
     }
     #figura-inicio img {
-        max-width: 100%;
+        max-width: 90%;
     }
     .maintienda {
         padding: 10px;
