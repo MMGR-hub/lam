@@ -404,13 +404,13 @@ nav {
         font-weight: bold;
         background-color: pink;
     }*/
-    .logo {
+    /*.logo {
         margin-left: 2px; 
-    }
+    }*/
     .logo img {
         width: 90px;
         height: 70px;
-        /*margin-right: 80px;*/
+        margin-right: 80px;
     }
     .horizontal a {
         text-align: center;
