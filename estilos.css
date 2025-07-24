@@ -394,19 +394,13 @@ nav {
         justify-content:space-around;
         padding: 5px;
         align-items: center;
-    }
-    nav { 
-        display: flex;
-        flex-wrap: wrap;
-        gap: 50px;
-        justify-content: center;
-        margin-right: 30px;
-        font-weight: bold;
-        background-color: pink;
     }*/
-    .logo {
+    nav { 
+        /*display: flex;
+        flex-wrap: wrap;*/
+        gap: 10px;
+        margin-right: 30px;
         background-color: pink;
-        padding: 5px 5px; 
     }
     .logo img {
         width: 90px;
