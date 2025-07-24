@@ -66,9 +66,9 @@ nav {
 
 .horizontal > li:hover {
     /*background-color: #e2edff;*/
-    /*text-decoration: underline;
+    text-decoration: underline;
     text-decoration-color: #00aeef;
-    text-decoration-style: solid;*/
+    text-decoration-style: 4px solid;
     border: 2px solid #00aeef;
 }
 
@@ -87,10 +87,10 @@ nav {
 .vertical li:hover {
     /*background-color: #00aeef;*/
     /*background-color: #aac9ff;*/
-    /*text-decoration: underline;
+    text-decoration: underline;
     text-decoration-color: #00aeef;
-    text-decoration-style: 4px solid;*/
-    border: 2px solid #00aeef; 
+    text-decoration-style: 4px solid;
+    /*border: 2px solid #00aeef;*/ 
 }
 
 .vertical li a {
