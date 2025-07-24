@@ -58,7 +58,8 @@ nav {
 }
 
 .horizontal a {
-    color: #ed8e24;
+    /*color: #ed8e24;*/
+    color: #00aeef;
 }
 
 .horizontal > li > a {
@@ -69,7 +70,7 @@ nav {
 }
 
 .horizontal > li:hover {
-    background-color: #00aeef;
+    background-color: #ed8e24;
     color: white;
     /*text-decoration: underline;
     text-decoration-color: #00aeef;
