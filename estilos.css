@@ -399,7 +399,7 @@ nav {
 @media (max-width: 480px) {
     header {
         display: block;
-    }
+    } 
     /*header {
         background-color: black;
         display: flex;
