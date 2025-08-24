@@ -37,8 +37,8 @@ header {
 }
 
 .logo img {
-    width: 170px;
-    height: 150px;
+    width: 350px;
+    height: 180px;
 }
 
 nav { 
@@ -51,78 +51,122 @@ nav {
     background-color: white;
 }
 
-.horizontal {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
+nav a {
+    color: #900020;
+    font-size: 20px;
+    font-weight: bold;    
+    text-decoration: none;    
 }
 
-.horizontal > li > a {
-    display: block;
-    padding: 5px 25px;
-    color: #ed8e24;
-    text-decoration: none;
+a:hover {
+    background-color: #C8C5C2;
+    color: #003F5D;
 }
 
-.horizontal > li:hover {
-    background-color: #00aeef;
-    color: white;
-}
-
-.vertical {
-    position: absolute;
-    display: none;
-    list-style: none;
-    width: 130px;
-    background-color: white;
-}
-
-.horizontal li:hover .vertical {
+.linea {
+    background-color: #003F5D;
+    height: 5px;
+    width: 100%;
     display: block;
 }
 
-.vertical li:hover {
-    background-color: #00aeef;
-    color: white;
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    width: 95%;
+    margin: auto;
+    grid-gap: 10px;
+    padding: 40px 0;
+    overflow: hidden;
 }
 
-.vertical li a {
-    display: block;
-    color: #ed8e24;
-    padding: 5px 15px 5px 35px;
-    text-decoration: none;
+.galeria > a {
+    display: block;    
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
 }
 
-.inicio {
-    background-color: white;
+.galeria img{
+    width: 100%;
+    vertical-align: top;
+    height: 350px;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+.galeria a:hover img{
+    filter: blur(2px);
+    transform: rotate(10deg) scale(1.3);
+}
+
+.light-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+    transition: transform .3s ease-in-out;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
     display: flex;
     justify-content: center;
-    padding: 10px;
+    align-items: center;
+    transform: scale(0);
 }
 
-#figura-inicio {
-    cursor: pointer;
-    height: auto;
-    max-width: 720px;
-    transition: 0.8s;
-}           
+.light-box img {
+    width: 75vw;
+    max-height: 70vh;
+}
 
-#figura-inicio:hover {
-    filter: brightness(60%);
-    transform: scale(.8);
+.light-box a {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.light-box:target {
+    transform: scale(1);
+}
+
+.next {
+    display: block;
+    background: #851919;
+    color: white;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.close {
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    background: #851919;
+    color: white;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
 }
 
 #opcion1 h2 {
     background-color: white;
-    color: #ed8e24;
-    font-size: 24px;
+    color: #851919;
+    font-family: Arial;
+    font-size: 27px;
     font-weight: bold;
     text-align: left;
-    margin-top: 60px;
-    margin-bottom: 50px;    
+    margin-top: 50px;
+    margin-bottom: 0px;    
 }
 
-#tienda {
+#home {
     align-items: center;
     display: flex;
     text-align: center;
@@ -143,139 +187,115 @@ nav {
 }
 
 .asidetienda {
-    background-color: darkorange;
+    background-color: #C8C5C2;
     padding: 40px 60px;
     overflow: hidden;    
-    border: 2px solid mediumslateblue;
+    border: 2px solid #851919;
 }
 
 .asidetienda h2 {
-    color: black;
+    color: #003F5D;
     font-size: 16px;
     font-weight: bold;
     text-align: justify;
 }
 
 .asidetienda p {
-    color: black;
+    color: #003F5D;
     font-size: 14px;
     text-align: justify;
 }
 
 #opcion2 h2 {
     background-color: white; 
-    color: #ed8e24;
-    font-size: 24px;
+    color: #851919;
+    font-family: Arial;
+    font-size: 27px;
     font-weight: bold;
     text-align: left;
-    margin-top: 60px;
-    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
-.menu-productos {
-    display: grid;    
-    gap: 20px;   
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}
-
-.menu-productos a {
-    font-size: 26px;
-    font-weight: bold;
-    font-family: georgia;
-    color: white;
-    border-style: double;
+.servicios {
+    display: grid;
+    gap: 10px;   
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
 .cartas {
     background-color: white;
-    border-radius: 0px;
-    border: ridge darkorange; 
-    padding: 100px;
+    border-radius: 5px;
+    border: ridge #C8C5C2;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    padding: 15px;
     text-align: center;
 }
 
-#carta1 {
-    background-image: url(imagenes/chocolates.jpg);
-    background-repeat: no-repeat;
+.servicios h3 {
+    color: #851919;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
-#carta2 {
-    background-image: url(imagenes/dulces.jpg);    
-    background-repeat: no-repeat;
+.servicios p {
+    color: #003F5D;
+    font-size: 15px;
+    text-align: justify;
+    margin-bottom: 20px;
 }
 
-#carta3 {
-    background-image: url(imagenes/galletas.jpg);
-    background-repeat: no-repeat;   
+.servicios img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#opcion3 h2 {
+    background-color: white; 
+    color: #851919;
+    font-family: Arial;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
 
 .productos {
     display: grid;    
     gap: 10px;   
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
-.productos h3 {
-    color: black;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    margin: 10px 0px;
-}
-
-.productos p {
-    color: black;   
-    font-size: 20px;
-    text-align: center;
-}
-
-#chocolates h2 {
-    background-color: white; 
-    color: #00aeef;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: left;
-    margin-top: 60px;
-    margin-bottom: 40px;
-}
-
-#dulces h2 {
-    background-color: white; 
-    color: #00aeef;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: left;
-    margin-top: 60px;
-    margin-bottom: 40px;
-}
-
-#galletas h2 {
-    background-color: white; 
-    color: #00aeef;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: left;
-    margin-top: 60px;
-    margin-bottom: 40px;
-}
-
-.carta {
+.carta {    
     background-color: white;
-    border-radius: 10px;
-    border: ridge darkorange;   
-    box-shadow: 2px 2px 10px rgba(0,0,0,0); 
+    border-radius: 15px;
+    border: ridge #003F5D;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
     padding: 15px;
     text-align: center;
 }
 
-#opcion3 h2 {
+.carta img{
+    width: 100%;
+    vertical-align: top;
+    height: 350px;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+#opcion4 h2 {
     background-color: white; 
-    color: #ed8e24;
-    font-size: 24px;
+    color: #851919;
+    font-family: Arial;
+    font-size: 27px;
     font-weight: bold;
     text-align: left;
-    margin-top: 60px;
-    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 5px;
 }
 
 #contacto {
@@ -288,38 +308,48 @@ nav {
     background-color: white;
     align-items: center;
     justify-content: center;
-    padding: 10px 140px; 
+    padding: 10px 40px; 
     margin-top: 25px;
     margin-bottom: 25px;
 }
 
 .maincontacto img {
-    width: 250px;
-    height: 250px;
+    /*width: 250px;
+    height: 250px;*/
+    max-width: 100%;
+    height: auto;
 }
 
 .asidecontacto {
-    background-color: darkorange;
-    padding: 40px 40px;
-    border: 2px solid mediumslateblue;
+    background-color: #851919;
+    padding: 20px 20px;
+    border: 2px solid grey;
 }
 
-.asidecontacto p {
-    color: black;
-    font-family: sans-serif;
-    font-size: 16px;
+.asidecontacto h2 {
+    color: white;
+    font-family: arial;
+    font-size: 15px;
     font-weight: bold;
     text-align: left;
 }
 
+.asidecontacto p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-align: left;
+    margin-left: 20px;
+}
+
 .asidecontacto img {
-    margin-left: 120px;
+    margin-left: 10px;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .asidecontacto a{
-    background-color: darkorange;
+    background-color: #851919;
 }
 
 #final {    
