@@ -403,12 +403,6 @@ a:hover {
         flex-direction: column;
         text-align: center; 
     }    
-    .vertical a {
-        text-align: left;
-    }    
-    .vertical li a {
-        padding: 3px 5px 3px 25px;
-    }
     #tienda {
         flex-direction: column;
     }
@@ -431,12 +425,6 @@ a:hover {
         flex-direction: column;
         text-align: center;
     }  
-    .vertical a {
-        text-align: left;
-    }
-    .vertical li a {
-        padding: 3px 5px 3px 25px;
-    }
     #tienda {
         flex-direction: column;
     }
@@ -462,16 +450,7 @@ a:hover {
     .logo img {
         width: 110px;
         height: 90px;
-    }
-    .horizontal li a {
-        padding: 8px 8px 8px 25px; 
-    }
-    .vertical a {
-        text-align: left;
-    }
-    .vertical li a {
-        padding: 3px 5px 3px 25px;
-    }
+    } 
     #figura-inicio img {
         max-width: 100%;
     }
