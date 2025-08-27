@@ -38,7 +38,7 @@ header {
  
 .logo img {
     width: 330px;
-    height: 170px;
+    height: 150px;
 }
 
 nav { 
@@ -71,14 +71,15 @@ a:hover {
 }
 
 .inicio {
-    width: 95%;
+    width: 100%;
     margin: auto;
+    margin-left: 150px;
     overflow: hidden;
 }
 
 .inicio ul {
     display: flex;
-    padding: 20px 0px;
+    padding: 30px 0px;
     width: 400%;
     animation: fotos 20s infinite;
     animation-direction: alternate;
@@ -90,7 +91,7 @@ a:hover {
 }
 
 .inicio img {
-    width: 800px;
+    width: 900px;
     height: 400px;
 }
 
@@ -196,12 +197,12 @@ a:hover {
 #opcion1 h2 {
     background-color: white;
     color: #851919;
-    font-family: Arial;
+    font-family: Georgia;
     font-size: 27px;
     font-weight: bold;
     text-align: left;
     margin-top: 50px;
-    margin-bottom: 10px;    
+    margin-bottom: 0px;    
 }
 
 #home {
@@ -244,10 +245,32 @@ a:hover {
     text-align: justify;
 }
 
+#videos {
+    display:flexbox;
+    /*padding: 0px;*/
+    /*margin-left: 200px;*/
+    align-items: center;
+    justify-content: center;
+}
+
+video {
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #851919;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+#videos h1 {
+    font-family: georgia;
+    font-size: 25px;
+    text-align: justify;
+    color: #003F5D;
+}
+
 #opcion2 h2 {
     background-color: white; 
     color: #851919;
-    font-family: Arial;
+    font-family: Georgia;
     font-size: 27px;
     font-weight: bold;
     text-align: left;
@@ -270,6 +293,10 @@ a:hover {
     text-align: center;
 }
 
+.cartas img:hover {
+    box-shadow: 0 0 8px rgba(0, 0, 0, .5);
+}
+    
 .servicios h3 {
     color: #851919;
     font-size: 17px;
@@ -294,12 +321,12 @@ a:hover {
 #opcion3 h2 {
     background-color: white; 
     color: #851919;
-    font-family: Arial;
+    font-family: Georgia;
     font-size: 27px;
     font-weight: bold;
     text-align: left;
-    margin-top: 50px;
-    margin-bottom: 10px;
+    margin-top: 60px;
+    margin-bottom: 0px;
 }
 
 .productos {
@@ -328,7 +355,7 @@ a:hover {
 #opcion4 h2 {
     background-color: white; 
     color: #851919;
-    font-family: Arial;
+    font-family: Georgia;
     font-size: 27px;
     font-weight: bold;
     text-align: left;
@@ -365,8 +392,8 @@ a:hover {
 }
 
 .asidecontacto h2 {
-    color: white;
-    font-family: arial;
+    color: #003F5D;
+    font-family: sans-serif;
     font-size: 15px;
     font-weight: bold;
     text-align: left;
@@ -375,7 +402,7 @@ a:hover {
 .asidecontacto p {
     color: white;
     font-family: sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     text-align: left;
     margin-left: 20px;
 }
@@ -388,6 +415,7 @@ a:hover {
 
 .asidecontacto a{
     background-color: #851919;
+    color: white;
 }
 
 #final {    
